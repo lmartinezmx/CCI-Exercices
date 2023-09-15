@@ -23,5 +23,15 @@ public class Main {
         DropConst dropConst = new DropConst();
         dropConst.minAndMaxsV1(myarray);
         dropConst.minAndMaxsV2(myarray);
+
+        Rec recClass = new Rec();
+        System.out.println("Recursive sums are from 4 tree: " + recClass.myRecFunc(4));
+
+        System.out.println("Factorial from 5 is: "+recClass.factorial(5));
+
+        Loop loop = new Loop();
+        System.out.println("is 7 prime? "+loop.isPrime(7));
+
+        System.out.println("List of 20 first primes: "+ loop.listPrimes(20));
     }
 }
